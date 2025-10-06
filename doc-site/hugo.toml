@@ -1,0 +1,29 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Technical Documentation'
+theme = 'hugo-theme-techdoc'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+
+[params]
+  version = "1.0"
+  github_repository = "https://github.com/yourusername/infra-doc"
+  edit_page = true
+  description = "Technical documentation site"
+  author = "Your Team"
+  menu_style = "open-menu"
+
+  # Menu exclusions
+  menu_exclusion = []
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1

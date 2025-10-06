@@ -1,0 +1,8 @@
+.idea
+*.iml
+
+# Hugo build output
+doc-site/public/
+
+# Draw.io stuff
+*.drawio.bkp
